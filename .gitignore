@@ -1,0 +1,7 @@
+README.html
+*.cache
+
+plugins/SimpleCaptchaPlugin/vendor/s1syphos/php-simple-captcha/*
+!plugins/SimpleCaptchaPlugin/vendor/s1syphos/php-simple-captcha/LICENSE
+!plugins/SimpleCaptchaPlugin/vendor/s1syphos/php-simple-captcha/fonts/
+!plugins/SimpleCaptchaPlugin/vendor/s1syphos/php-simple-captcha/src/
