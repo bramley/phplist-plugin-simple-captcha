@@ -113,7 +113,7 @@ END;
         <img id="simple_captcha_image" src="%s" />
         %s
         <div style="clear: both"></div>
-        <label for="simple_captcha_phrase">%s</label>
+        <label class="required" for="simple_captcha_phrase">%s</label>
         <input type="text" name="simple_captcha_phrase" id="simple_captcha_phrase" autocomplete="off" required>
 END;
         $html = sprintf($format, $captchaImageUrl, $refreshLink, htmlspecialchars(getConfig('simple_captcha_prompt')));
