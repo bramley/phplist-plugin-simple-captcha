@@ -1,2 +1,6 @@
+version 1.0.1+20260401
+      Use the CSS class for mandatory fields
+      Validate subscribe page only when captcha is include
+
 version 1.0.0+20250303
       First release

@@ -22,4 +22,5 @@ For advice on configuring and using the plugin see the documentation page <https
 ## Version history ##
 
     version         Description
+    1.0.1+20260401  Validate subscribe page only when captcha is included
     1.0.0+20250303  First release

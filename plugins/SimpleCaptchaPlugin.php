@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Simple Captcha Plugin for phplist.
  *
@@ -132,6 +133,7 @@ END;
     public function validateSubscriptionPage($pageData): string
     {
         if (empty($_POST)
+            || empty($pageData['simple_captcha_include'])
             || ($_GET['p'] == 'asubscribe' && !empty($pageData['simple_captcha_not_asubscribe']))
             || $_GET['p'] == 'preferences'
             || !isset($_POST['email'])
